@@ -52,7 +52,7 @@ export default developer;`;
             </motion.div>
 
             <motion.p
-              className="text-base md:text-lg leading-relaxed text-foreground/80 max-w-lg"
+              className="text-base md:text-lg leading-relaxed text-foreground/80 max-w-lg break-words"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.6 }}
@@ -141,8 +141,8 @@ export default developer;`;
                   developer.ts
                 </span>
               </div>
-              <pre className="text-xs md:text-sm font-mono overflow-x-auto">
-                <code className="text-foreground/90">{codeSnippet}</code>
+              <pre className="text-xs md:text-sm font-mono overflow-x-auto whitespace-pre-wrap break-words max-w-full">
+                <code className="text-foreground/90 block">{codeSnippet}</code>
               </pre>
               <div className="absolute -inset-1 bg-gradient-to-r from-primary/20 to-accent/20 rounded-xl blur-xl -z-10 opacity-50" />
             </div>
