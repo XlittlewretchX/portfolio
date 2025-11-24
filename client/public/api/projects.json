@@ -1,0 +1,46 @@
+[
+  {
+    "id": "project-car-assistant",
+    "title": "Car assistant",
+    "description": "Приложение, позволяющее пользователям отслеживать расходы на топливо и обслуживание автомобиля.",
+    "technologies": [
+      "React",
+      "React Native",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "SQLite"
+    ],
+    "liveUrl": "https://t.me/Car_Ass_bot/CarAss",
+    "imageUrl": "/images/car-ass.png",
+    "featured": 3
+  },
+  {
+    "id": "project-ebilet",
+    "title": "eBilet",
+    "description": "Веб-сервис для бронирования билетов на различные мероприятия",
+    "technologies": [
+      "React",
+      "TypeScript",
+      "Redux",
+      "Node.js",
+      "Express",
+      "SQLite"
+    ],
+    "liveUrl": "https://xlittlewretchx.github.io/ebilet/",
+    "githubUrl": "https://github.com/XlittlewretchX/ebilet",
+    "imageUrl": "/images/eBilet.png",
+    "featured": 2
+  },
+  {
+    "id": "project-mesto",
+    "title": "Mesto",
+    "description": "Интерактивная веб-страница, которая позволяет пользователям делиться фотографиями.",
+    "technologies": ["JavaScript"],
+    "liveUrl": "https://xlittlewretchx.github.io/mesto-project/",
+    "githubUrl": "https://github.com/XlittlewretchX/mesto-project",
+    "imageUrl": "/images/mesto.png",
+    "featured": 0
+  }
+]
+

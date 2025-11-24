@@ -11,6 +11,18 @@ export function ProjectsSection() {
     queryKey: ["/api/projects"],
   });
 
+  const rawBase = import.meta.env.BASE_URL ?? "/";
+  const normalizedBase =
+    rawBase === "/" ? "" : rawBase.endsWith("/") ? rawBase.slice(0, -1) : rawBase;
+
+  const resolveAsset = (path?: string | null) => {
+    if (!path) return undefined;
+    if (/^https?:\/\//.test(path)) {
+      return path;
+    }
+    return `${normalizedBase}${path}`;
+  };
+
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -100,7 +112,7 @@ export function ProjectsSection() {
                 {project.imageUrl && (
                   <div className="relative aspect-[16/10] overflow-hidden bg-muted">
                     <img
-                      src={project.imageUrl}
+                      src={resolveAsset(project.imageUrl)}
                       alt={project.title}
                       className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                       data-testid={`img-project-${project.id}`}
