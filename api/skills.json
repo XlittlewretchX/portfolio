@@ -1,0 +1,12 @@
+[
+  { "id": "skill-react", "name": "React", "category": "Фронтенд", "icon": "react" },
+  { "id": "skill-typescript", "name": "TypeScript", "category": "Фронтенд", "icon": "typescript" },
+  { "id": "skill-javascript", "name": "JavaScript", "category": "Фронтенд", "icon": "javascript" },
+  { "id": "skill-html", "name": "HTML5", "category": "Фронтенд", "icon": "html5" },
+  { "id": "skill-css", "name": "CSS3", "category": "Фронтенд", "icon": "css3" },
+  { "id": "skill-react-native", "name": "React Native", "category": "Фронтенд", "icon": "react-native" },
+  { "id": "skill-node", "name": "Node.js", "category": "Бэкенд", "icon": "nodejs" },
+  { "id": "skill-git", "name": "Git", "category": "Инструменты", "icon": "git" },
+  { "id": "skill-figma", "name": "Figma", "category": "Инструменты", "icon": "figma" }
+]
+
