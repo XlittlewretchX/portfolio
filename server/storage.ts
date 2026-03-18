@@ -78,6 +78,16 @@ export class MemStorage implements IStorage {
         imageUrl: "/images/mesto.png",
         featured: 0,
       },
+      {
+        title: "Stellar Burgers",
+        description:
+          "SPA для космической бургерной с конструктором бургеров, авторизацией и оформлением заказов.",
+        technologies: ["React", "TypeScript", "Redux Toolkit", "React Router"],
+        liveUrl: "https://xlittlewretchx.github.io/stellar-burgers/",
+        githubUrl: "https://github.com/XlittlewretchX/stellar-burgers",
+        imageUrl: "/images/stellar-burgers.png",
+        featured: 1,
+      },
     ];
 
     const sampleEducation: InsertEducation[] = [

@@ -32,8 +32,8 @@ export function Navigation() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled
-          ? "backdrop-blur-md bg-background/80 border-b border-border"
+        isScrolled || isMobileMenuOpen
+          ? "backdrop-blur-md bg-background/95 border-b border-border shadow-sm"
           : "bg-transparent"
       }`}
     >
@@ -85,12 +85,12 @@ export function Navigation() {
         </div>
 
         {isMobileMenuOpen && (
-          <div className="md:hidden pb-4 space-y-2">
+          <div className="md:hidden mx-1 mb-3 p-2 space-y-2 rounded-xl border border-border bg-background shadow-lg">
             {navLinks.map((link) => (
               <button
                 key={link.id}
                 onClick={() => scrollToSection(link.id)}
-                className="block w-full text-left px-4 py-3 text-base font-medium hover-elevate active-elevate-2 rounded-md"
+                className="block w-full text-left px-4 py-3 text-base font-medium text-foreground hover-elevate active-elevate-2 rounded-md"
                 data-testid={`link-mobile-${link.id}`}
               >
                 {link.label}
