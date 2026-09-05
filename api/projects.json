@@ -2,7 +2,7 @@
   {
     "id": "project-car-assistant",
     "title": "Car assistant",
-    "description": "Приложение, позволяющее пользователям отслеживать расходы на топливо и обслуживание автомобиля.",
+    "description": "Приложение для учёта расходов на топливо и обслуживание автомобиля с единым пользовательским сценарием внутри Telegram.",
     "technologies": [
       "React",
       "React Native",
@@ -11,14 +11,15 @@
       "Express",
       "SQLite"
     ],
+    "kind": "Pet-проект",
     "liveUrl": "https://t.me/Car_Ass_bot/CarAss",
     "imageUrl": "/images/car-ass.png",
-    "featured": 3
+    "featured": 2
   },
   {
     "id": "project-ebilet",
     "title": "eBilet",
-    "description": "Веб-сервис для бронирования билетов на различные мероприятия",
+    "description": "Веб-сервис бронирования билетов с каталогом мероприятий, управлением состоянием и серверной частью для работы с заказами.",
     "technologies": [
       "React",
       "TypeScript",
@@ -27,34 +28,39 @@
       "Express",
       "SQLite"
     ],
+    "kind": "Учебный проект",
     "liveUrl": "https://xlittlewretchx.github.io/ebilet/",
     "githubUrl": "https://github.com/XlittlewretchX/ebilet",
     "imageUrl": "/images/eBilet.png",
-    "featured": 2
+    "featured": 3
   },
   {
     "id": "project-mesto",
     "title": "Mesto",
-    "description": "Интерактивная веб-страница, которая позволяет пользователям делиться фотографиями.",
+    "description": "Интерактивная фотогалерея с редактированием профиля, добавлением карточек, лайками и валидацией форм.",
     "technologies": ["JavaScript"],
+    "kind": "Учебный проект",
     "liveUrl": "https://xlittlewretchx.github.io/mesto-project/",
     "githubUrl": "https://github.com/XlittlewretchX/mesto-project",
     "imageUrl": "/images/mesto.png",
-    "featured": 0
+    "featured": 1
   },
   {
     "id": "project-stellar-burgers",
     "title": "Stellar Burgers",
-    "description": "SPA для космической бургерной с конструктором бургеров, авторизацией и оформлением заказов.",
+    "description": "SPA с конструктором бургеров, защищёнными маршрутами, авторизацией, оформлением заказов и тестированием ключевой бизнес-логики.",
     "technologies": [
       "React",
       "TypeScript",
       "Redux Toolkit",
-      "React Router"
+      "React Router",
+      "Jest",
+      "Cypress"
     ],
+    "kind": "Учебный проект",
     "liveUrl": "https://xlittlewretchx.github.io/stellar-burgers/",
     "githubUrl": "https://github.com/XlittlewretchX/stellar-burgers",
     "imageUrl": "/images/stellar-burgers.png",
-    "featured": 1
+    "featured": 4
   }
 ]
